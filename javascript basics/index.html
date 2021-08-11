@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Basics</title>
+  </head>
+  <body>
+    <!--inline javscript-->
+    <button onclick="alert('hello learners')">click me</button>
+    <hr />
+    <!--internal javascript-->
+    <h1 class="change">....</h1>
+    <button class="changetext">click me</button>
+    <script>
+      const result = document.querySelector(".changetext");
+      result.addEventListener("click", () => {
+        const value = document.querySelector(".change");
+        value.textContent = "hello learners";
+        value.style.color = "red";
+      });
+    </script>
+    <br />
+    <br />
+    <br />
+    <hr />
+    <!--external javascript-->
+    <h1 class="color">hello learners</h1>
+    <hr />
+    <script src="./linking.js"></script>
+  </body>
+</html>
