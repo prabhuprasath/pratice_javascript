@@ -28,4 +28,3 @@ console.log($company);
 
 const _company = "facebook";
 console.log(_company);
-
