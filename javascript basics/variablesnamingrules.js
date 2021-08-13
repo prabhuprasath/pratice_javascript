@@ -28,3 +28,24 @@ console.log($company);
 
 const _company = "facebook";
 console.log(_company);
+
+
+//"" or ''
+
+const fav_dish = 'biriyani\'s is my favorite dish' ;
+console.log(fav_dish);
+
+const fav_cusine = 'chinese';
+
+console.log(`my favorite cusine is ${fav_cusine}`);
+
+//string concatenation
+//you can to string concatenation in two ways either using + or ``(backticks)
+//using backticks is called template string.
+
+const greeting = 'Good morning';
+
+console.log(greeting + ' prabhu prasath!');
+
+console.log(`${greeting} prabhuprasath!`);
+
