@@ -40,7 +40,7 @@ const fav_cusine = 'chinese';
 console.log(`my favorite cusine is ${fav_cusine}`);
 
 //string concatenation
-//you can to string concatenation in two ways either using + or ``(backticks)
+//you can do string concatenation in two ways either using + or ``(backticks)
 //using backticks is called template string.
 
 const greeting = 'Good morning';
