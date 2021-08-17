@@ -116,7 +116,7 @@ console.log(storingvalue);
 //objects in javascript
 //objects are collections of properties
 //objects are key value pairs 
-// using dot notation you can access things. 
+// using dot notation you can access things in object.
 
 const person = {
 
