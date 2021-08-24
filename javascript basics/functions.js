@@ -30,3 +30,19 @@ console.log(store);
 
 console.log(isfun);
 
+//variable lookup
+
+const globalnumber = 500;
+
+function addnumber(a,b){
+
+
+    const result = a + b + globalnumber;
+    return result;
+
+}
+const finalresult = addnumber(100,100);
+
+console.log(finalresult);
+
+

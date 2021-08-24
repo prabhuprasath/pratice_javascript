@@ -20,9 +20,43 @@ do{
 
 //for loops
 
-let value = 20;
+for(let n = 2000; n<=6000; n +=2000){
 
-for(value = 20; value <= 30; value +=5){
-    console.log(value);
+    console.log(`your value is ${n}`);
+
+};
+
+
+for (let y = 6000; y>=1000; y -=2000){
+    console.log(`your value is ${y}`);
+
+};
+
+for(let e = 8; e <=80; e +=8){
+    console.log(e);
+
+};
+
+for(let reverse = 1000; reverse>=0; reverse --){
+    console.log(reverse);
+
+};
+
+for(even = 100; even>=2; even -=2){
+    console.log(even);
 
 }
+
+//for of is for arrays
+
+const items = ['book','scale','pencil'];
+
+for(let i of items){
+
+    console.log(i);
+
+
+} 
+
+
+
